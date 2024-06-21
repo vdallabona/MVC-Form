@@ -1,0 +1,14 @@
+C:\Users\vinicius.dallabona\Desktop\MVC Form\bin\Debug\net8.0-windows\MVC Form.exe
+C:\Users\vinicius.dallabona\Desktop\MVC Form\bin\Debug\net8.0-windows\MVC Form.deps.json
+C:\Users\vinicius.dallabona\Desktop\MVC Form\bin\Debug\net8.0-windows\MVC Form.runtimeconfig.json
+C:\Users\vinicius.dallabona\Desktop\MVC Form\bin\Debug\net8.0-windows\MVC Form.dll
+C:\Users\vinicius.dallabona\Desktop\MVC Form\bin\Debug\net8.0-windows\MVC Form.pdb
+C:\Users\vinicius.dallabona\Desktop\MVC Form\obj\Debug\net8.0-windows\MVC Form.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinicius.dallabona\Desktop\MVC Form\obj\Debug\net8.0-windows\MVC Form.AssemblyInfoInputs.cache
+C:\Users\vinicius.dallabona\Desktop\MVC Form\obj\Debug\net8.0-windows\MVC Form.AssemblyInfo.cs
+C:\Users\vinicius.dallabona\Desktop\MVC Form\obj\Debug\net8.0-windows\MVC Form.csproj.CoreCompileInputs.cache
+C:\Users\vinicius.dallabona\Desktop\MVC Form\obj\Debug\net8.0-windows\MVC Form.dll
+C:\Users\vinicius.dallabona\Desktop\MVC Form\obj\Debug\net8.0-windows\refint\MVC Form.dll
+C:\Users\vinicius.dallabona\Desktop\MVC Form\obj\Debug\net8.0-windows\MVC Form.pdb
+C:\Users\vinicius.dallabona\Desktop\MVC Form\obj\Debug\net8.0-windows\MVC Form.genruntimeconfig.cache
+C:\Users\vinicius.dallabona\Desktop\MVC Form\obj\Debug\net8.0-windows\ref\MVC Form.dll
