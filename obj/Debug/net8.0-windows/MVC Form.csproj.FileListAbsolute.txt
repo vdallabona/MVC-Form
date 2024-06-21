@@ -12,3 +12,18 @@ C:\Users\vinicius.dallabona\Desktop\MVC Form\obj\Debug\net8.0-windows\refint\MVC
 C:\Users\vinicius.dallabona\Desktop\MVC Form\obj\Debug\net8.0-windows\MVC Form.pdb
 C:\Users\vinicius.dallabona\Desktop\MVC Form\obj\Debug\net8.0-windows\MVC Form.genruntimeconfig.cache
 C:\Users\vinicius.dallabona\Desktop\MVC Form\obj\Debug\net8.0-windows\ref\MVC Form.dll
+H:\projetos\Programação\MVC-Form\bin\Debug\net8.0-windows\MVC Form.exe
+H:\projetos\Programação\MVC-Form\bin\Debug\net8.0-windows\MVC Form.deps.json
+H:\projetos\Programação\MVC-Form\bin\Debug\net8.0-windows\MVC Form.runtimeconfig.json
+H:\projetos\Programação\MVC-Form\bin\Debug\net8.0-windows\MVC Form.dll
+H:\projetos\Programação\MVC-Form\bin\Debug\net8.0-windows\MVC Form.pdb
+H:\projetos\Programação\MVC-Form\obj\Debug\net8.0-windows\MVC Form.GeneratedMSBuildEditorConfig.editorconfig
+H:\projetos\Programação\MVC-Form\obj\Debug\net8.0-windows\MVC Form.AssemblyInfoInputs.cache
+H:\projetos\Programação\MVC-Form\obj\Debug\net8.0-windows\MVC Form.AssemblyInfo.cs
+H:\projetos\Programação\MVC-Form\obj\Debug\net8.0-windows\MVC Form.csproj.CoreCompileInputs.cache
+H:\projetos\Programação\MVC-Form\obj\Debug\net8.0-windows\MVC Form.sourcelink.json
+H:\projetos\Programação\MVC-Form\obj\Debug\net8.0-windows\MVC Form.dll
+H:\projetos\Programação\MVC-Form\obj\Debug\net8.0-windows\refint\MVC Form.dll
+H:\projetos\Programação\MVC-Form\obj\Debug\net8.0-windows\MVC Form.pdb
+H:\projetos\Programação\MVC-Form\obj\Debug\net8.0-windows\MVC Form.genruntimeconfig.cache
+H:\projetos\Programação\MVC-Form\obj\Debug\net8.0-windows\ref\MVC Form.dll

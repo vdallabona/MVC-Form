@@ -10,7 +10,6 @@ public class ViewTarefa : Form
     private readonly TextBox inputData;
     private readonly Label labelHora;
     private readonly TextBox inputHora;
-
     private readonly Button buttonCadastrar;
     private readonly Button buttonAlterar;
     private readonly Button buttonDeletar;
@@ -112,12 +111,27 @@ public class ViewTarefa : Form
         if(inputNome.Text.Length > 0 && inputData.Text.Length > 0 && inputHora.Text.Length > 0){
             ControllerTarefa.CriarTarefa(inputNome.Text, inputData.Text, inputHora.Text);
             Listar();
+            inputNome.Text = "";
+            inputData.Text = "";
+            inputHora.Text = "";
         }else{
             MessageBox.Show("Preencha todos os campos");
             return;
         }
     }
     private void ClickAlterar(object? sender, EventArgs e){
+
+        int index = DataGridListar.SelectedRows[0].Index;
+        if(inputNome.Text.Length > 0 && inputData.Text.Length > 0 && inputHora.Text.Length > 0){
+            ControllerTarefa.AlterarTarefa(index, inputNome.Text, inputData.Text, inputHora.Text);
+            Listar();
+            inputNome.Text = "";
+            inputData.Text = "";
+            inputHora.Text = "";
+        }else{
+            MessageBox.Show("Preencha todos os campos");
+            return;
+        }
     }
     private void ClickDeletar(object? sender, EventArgs e){
         int index = DataGridListar.SelectedRows[0].Index;
