@@ -50,9 +50,18 @@ namespace Repository {
             }else{
                 MessageBox.Show("Pessoa não encontrada");
             }
-
             CloseConexao();
+        }
+        public static void Add(string nome, string data, string hora){
+            InitConexao();
+            string adicionar = "INSERT INTO tarefas (idTarefa, nome, data, hora) VALUES ('', @nome, @data, @hora);";
+            MySqlCommand command = new MySqlCommand(adicionar, conexao);
+            command.Parameters.AddWithValue("@nome", nome);
+            command.Parameters.AddWithValue("@data", data);
+            command.Parameters.AddWithValue("@hora", hora);
 
+            tarefas.Add();
+            CloseConexao();
         }
     }
 }
