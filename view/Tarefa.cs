@@ -17,6 +17,9 @@ public class ViewTarefa : Form
 
     public ViewTarefa()
     {
+
+        Tarefa.Sincronizar();
+
         StartPosition = FormStartPosition.CenterScreen;
         Size = new Size(400, 500);
 
@@ -83,6 +86,8 @@ public class ViewTarefa : Form
         Controls.Add(buttonAlterar);
         Controls.Add(buttonDeletar);
         Controls.Add(DataGridListar);
+
+        Listar();
     }
 
     private void Listar() {
@@ -90,6 +95,11 @@ public class ViewTarefa : Form
         DataGridListar.Columns.Clear();
         DataGridListar.AutoGenerateColumns = false;
         DataGridListar.DataSource = tarefas;
+
+        DataGridListar.Columns.Add(new DataGridViewTextBoxColumn{
+            HeaderText = "idTarefa",
+            DataPropertyName = "idTarefa"
+        });
 
         DataGridListar.Columns.Add(new DataGridViewTextBoxColumn{
             HeaderText = "Nome",

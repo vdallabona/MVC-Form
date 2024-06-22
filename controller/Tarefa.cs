@@ -2,6 +2,11 @@ using Model;
 
 namespace Controller {
     public class ControllerTarefa {
+
+        public static void Sincronizar(){
+            Tarefa.Sincronizar();
+        }
+
         public static void CriarTarefa( string nome, string data, string hora ) {
             new Tarefa( nome, data, hora );
         }
@@ -19,9 +24,6 @@ namespace Controller {
         }
         public static void DeletarTarefa(int indice) {
             Tarefa.DeletarTarefa(indice);
-        }
-        public static void ConcluirTarefa(int indice) {
-            Tarefa.ConcluirTarefa(indice);
         }
     }
 }
