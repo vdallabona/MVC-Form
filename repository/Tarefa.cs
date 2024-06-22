@@ -37,6 +37,23 @@ namespace Repository {
             }
             CloseConexao();
         }
+        public static void Delete(int index){
+            InitConexao();
+            string delete = "DELETE FROM tarefas WHERE idTarefa = @idTarefa";
+            MySqlCommand command = new MySqlCommand(delete, conexao);
+            command.Parameters.AddWithValue("@idTarefa", tarefas[index].idTarefa);
+
+            int rowsAffected = command.ExecuteNonQuery();
+            if(rowsAffected > 0){
+                tarefas.RemoveAt(index);
+                MessageBox.Show("Deletado com sucesso");
+            }else{
+                MessageBox.Show("Pessoa não encontrada");
+            }
+
+            CloseConexao();
+
+        }
     }
 }
 

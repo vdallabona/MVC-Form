@@ -35,7 +35,7 @@ namespace Model {
         }
 
         public static void DeletarTarefa(int indice) {
-            ListTarefa.tarefas.RemoveAt(indice);
+            ListTarefa.Delete(indice);
         }
     }
 }
